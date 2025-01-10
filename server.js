@@ -3,7 +3,7 @@ const cors = require('cors');
 
 const app = express();
 const corsOptions = {
-    origin: ['backendproba.vercel.app'],
+    origin: [''],
     methods: ['POST', 'GET'],
     credentials: true
   }
